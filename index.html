@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nike</title>
+
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
+
+        <!-- icons link from remix icon -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet" />
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <div class="nav1">
+                    <img src="/images/nike-logo-0.png" alt="logo">
+                    <ul>
+                        <li>Home</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Collection</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="nav2">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <h5>Explore limited edition</h5>
+                    <h1>Nike limited edition</h1>
+                    <p><strong>Step into greatness with Nike.</strong><br>
+                        Explore cutting-edge footwear, iconic apparel, and
+                        performance gear designed to push your limits. Whether
+                        you're hitting the gym, the streets, or the field — Nike
+                        empowers every move with innovation and style</p>
+                    <button class="btn">Shop Now</button>
+                </div>
+                <div class="slider-wrapper">
+                    <button class="scroll-btn left"><i class="ri-arrow-left-s-line"></i></button>
+                    <div class="content-right" id="scroll-container">
+                        <div class="product">
+                            <img src="images/air-max-1-lx-shoes.png"
+                                alt="nike shoes">
+                            <h4>Nike Air Max 1</h4>
+                            <p class="category">Men's shoes</p>
+                            <p class="color">Color: white</p>
+                            <p class="prize">14,999</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/air-peg-2k5-shoes.png"
+                                alt="shoes2">
+                            <h4>Nike Air peg 2K5</h4>
+                            <p class="category">Men's shoes</p>
+                            <p class="color">Color: white</p>
+                            <p class="prize">13,999</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/lunar-roam-shoes.png" alt="shoes2">
+                            <h4>Nike Air Lunar</h4>
+                            <p class="category">Men's shoes</p>
+                            <p class="color">Color: white</p>
+                            <p class="prize">15,999</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/nocta-glide-shoes.png"
+                                alt="shoes2">
+                            <h4>Nocta glide shoes</h4>
+                            <p class="category">Men's shoes</p>
+                            <p class="color">Color: white</p>
+                            <p class="prize">17,899</p>
+                        </div>
+                        <div class="product">
+                            <img src="images/terminator-high-shoes.png"
+                                alt="shoes2">
+                            <h4>Nike Terminator shoes</h4>
+                            <p class="category">Men's shoes</p>
+                            <p class="color">Color: white</p>
+                            <p class="prize">15,999</p>
+                        </div>
+                    </div>
+                    <button class="scroll-btn right"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
 </html>
